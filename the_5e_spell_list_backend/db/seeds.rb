@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+response = JSON.parse(RestClient.get("https://api.open5e.com/spells/"))
+
+binding.pry

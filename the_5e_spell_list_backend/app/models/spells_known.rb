@@ -1,0 +1,2 @@
+class SpellsKnown < ApplicationRecord
+end

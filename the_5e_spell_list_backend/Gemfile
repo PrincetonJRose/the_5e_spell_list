@@ -43,6 +43,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'faker'
 gem 'rest-client'
 gem 'json'
+gem 'pry'
 
 # Using JWT for token encryption
 gem 'jwt'
